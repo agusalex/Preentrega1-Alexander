@@ -5,12 +5,12 @@ import CartWidget from "./CartWidget";
 const Navbar = () => {
     return (
         <div className="navbar-m" id="navbarNav">
-            <h1 className="title">ECommerce</h1>
-            <Nav.Link className="link" href="/">Home</Nav.Link>
+            <h1 className="title">DecoShop</h1>
+            <Nav.Link className="link" href="/home">Hogar Deco</Nav.Link>
 
-            <Nav.Link className="link" href="/products">Products</Nav.Link>
+            <Nav.Link className="link" href="/exterior">Exteriores</Nav.Link>
 
-            <Nav.Link className="link" href="/about-us">About Us</Nav.Link>
+            <Nav.Link className="link" href="/garden">Jardin</Nav.Link>
             <CartWidget></CartWidget>
 
         </div>
